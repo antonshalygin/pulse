@@ -1,0 +1,38 @@
+.feed {
+    padding-bottom: 71px;
+    &__wrapper {
+        margin-top: 50px;
+        display: flex;
+    }
+    &__img {
+        width: 169px;
+        height: 169px;
+    }
+    &__review {
+        margin-left: 62px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    &__experience {
+        color: #646464;
+        font-size: 14px;
+        line-height: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+    }
+    &__descr {
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 300;
+        margin-top: 19px;
+    }
+    &__divider {
+        margin-top: 50px;
+        border-bottom: none;
+        color: #f6f6f6;
+        opacity: 0.2
+    }
+}
